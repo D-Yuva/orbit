@@ -1,0 +1,7 @@
+Avatar source: image supplied directly by the user in this conversation.
+Instruction: "i want this to be the avatar for the app"
+Original reference: Sources/Orbit/Assets/batman-reference.png (1000 x 667).
+Latest supplied cutout: Sources/Orbit/Assets/batman-cutout.png (1568 x 1576, with alpha).
+The PNG attachments were decoded without modifying their image data.
+Native SwiftUI layers frame the upper body, trim residual fringe, position the supplied hands over the notch lip, and display six eye/mouth expressions. These layers are defined in CompanionView.swift and AvatarExpressionOverlay.swift.
+The six PNG variations exported by snapshot mode are renders of the native avatar views. No generated substitute character is used.
